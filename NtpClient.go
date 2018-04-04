@@ -8,7 +8,17 @@ import (
 )
 
 const ntpEpochOffset = 2208988800
-
+//------------------------------------------------------------------
+//
+// Original code from 
+// https://github.com/vladimirvivien/go-ntp-client
+// My thanks to Vladimir Vivien.
+//
+// I only requires a simple NTP client and this does every thing I need.
+//
+// Updated to use as a function within a simple server.
+//
+//------------------------------------------------------------------
 // NTP packet format (v3 with optional v4 fields removed)
 //
 // 0                   1                   2                   3
